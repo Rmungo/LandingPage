@@ -1,0 +1,270 @@
+Landing Page Passing Code
+
+HTML :
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Comedy Store: Comedy's #1 Place for Laughter</title>
+        <link rel="stylesheet" type="text/css" href="landingPage.css" />
+    </head>
+    <body>
+        <header id="header">
+            <img id="header-img" src="Black-Logo sized.gif" alt="" class="logo" />
+            <div class="logo">hey</div>
+            <nav id="nav-bar">
+                <a href="#videos" class="nav-link">Videos</a>
+                <a href="#form" class="nav-link">Suscribe</a>
+                <a href="#contact" class="nav-link">About Us</a>
+            </nav>
+        </header>
+        <main>
+            <div class="aboutUs">
+                <h2 id="infoTitle">About Us..</h2>
+                <p class="info">
+                    Laugh Factory History Since 1979 Opening its doors in 1979,
+                    the World Famous Laugh Factory has been recognized as "the
+                    #1 comedy club in the country" by such high-profile media as
+                    USA Today. With southern California locations in Hollywood
+                    (its original Sunset Boulevard locale) and Long Beach
+                    (opened in 2008), comedy's top stars, as well as today's
+                    brightest emerging talent, shine on its legendary stage.
+                    Founder Jamie Masada, the driving force behind the Laugh
+                    Factory, is revered as a pioneer and innovator and is an
+                    iconic name on the comedy scene. He was and continues to be
+                    instrumental in launching the careers of many of today's
+                    biggest comics. The New York Daily News called him the "Real
+                    King of Comedy." His knowledge and expertise have made him
+                    the leading authority on all things comedy and his advice is
+                    highly regarded by the entertainment industry's top power
+                    brokers. </p>
+                    <p>Among the comedians who have performed at the club
+                    are Tim Allen, Louie Anderson, Roseanne Barr, Milton Berle,
+                    David Brenner, Nick Cannon, Drew Carey, George Carlin, Jim
+                    Carrey, Dave Chappelle, Dane Cook, Rodney Dangerfield, Ellen
+                    DeGeneres, Phyliss Diller, Jeff Dunham, Jeff Foxworthy, Redd
+                    Foxx, Brad Garrett, Eddie Griffin, Kathy Griffin, Buddy
+                    Hackett, Bob Hope, Andy Kaufman, Sam Kinison, Martin
+                    Lawrence, Jay Leno, David Letterman, Richard Lewis, Goerge
+                    Lopez, Bernie Mac, Bill Maher, Howie Mandel, Carlos Mencia,
+                    Larry Miller, Mo'Nique, Paul Mooney, Eddie Murphy, Kevin
+                    Pollack, Richard Pryor, Paul_Reiser, Chris Rock, Paul
+                    Rodriguez, Ray Romano, Bob Saget, Mort Sahl, Adam Sandler,
+                    Jerry Seinfeld, Garry Shandling, Sarah Silverman, Jon
+                    Stewart, Wanda Sykes, Chris Tucker, Damon Wayans, Keenan
+                    Ivory Wayans, Flip Wilson, Robin Williams, Jonathan Winters,
+                    Steven Wright, Henry Youngman and many, many more. </p>
+                    <p>In 2006,
+                    the Laugh Factory made headlines when Michael Richards
+                    launched into an unfortunate racist outburst toward two
+                    African American men heckling him during a routine. In
+                    response, the club banned comedians from using the "n-word"
+                    in their acts. Less than a month later, the first incident
+                    under the new rule occurred with Damon Wayans dropping the
+                    word 16 times in a 20 minute set. He was fined $320 ($20 for
+                    each offense) and banned from performing at the venue for
+                    three months. A former stand up himself, Masada is a
+                    sought-after consultant and successful producer of comedy
+                    franchises for both film and television. He served as a
+                    producer for Damon Wayan's film, Behind the Smile, which was
+                    shot on location at the Laugh Factory's Hollywood location,
+                    and Disney's RocketMan. Currently in development are the
+                    feature films Blackxican, in association with Paul Rodriguez
+                    and Paul Mooney, and with Dom Irrera, Goombas of Comedy. </p>
+
+                    <p>
+                    Masada created and is the executive producer of Supreme
+                    Court of Comedy, a half-hour, unscripted series he developed
+                    which is currently entering its fourth season on DirecTV.
+                    Filmed at the Hollywood Club, real-life complaints are heard
+                    before comedian and "Chief Justice" Dom Irrera, who hands
+                    out hilarious (and surprisingly just) rulings. Guest
+                    starring as "Court Counselors" is a who's who of today's top
+                    comics. 'Chaim Hollywood, which debuted on The Jewish
+                    Channel (TJC) in September 2010, is a comedy series
+                    showcasing Judaism's top talent with comedy, music, and
+                    talk. Currently in development is Laugh Factory Open Mic for
+                    DirecTV and GI Comedy Throwdown, a contemporary take on the
+                    traditional USO Comedy Specials. Masada was also a casting
+                    consultant for Fox's In Living Color, a ground-breaking and
+                    sometimes controversial series which showcased African
+                    American humor, music, and culture. Masada was instrumental
+                    in championing the casting of both Jim Carrey (one of the
+                    few white cast members) and Jamie Foxx, not only helping to
+                    ensure the success of the show, but fast-tracking the two
+                    aspiring, young comedians' careers.</p>
+                </p>
+            </div>
+            <div class="videos" id="videos">
+                <h2 class="videoTitle">Videos</h2>
+                <div class="youtube">
+                <iframe src="https://www.youtube.com/embed/afXm4nRL7Vo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/saDnAkBU6Qs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/yC6gTGvHj9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/cVeTuo6hiR8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <video id="video" src=""></video>
+                    </div>
+            </div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <p>Enter Your Email for Free Tickets and Cool Prizes in a city NEAR YOU!!!</p>
+                <label for="email">
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Youremail@company.com"
+                    />
+                    <input type="submit" id="submit" />
+                </label>
+            </form>
+        </main>
+        <footer>
+            <p id="contact">Contact Us</p>
+            <p>Phone:(323) 656-1336</p>
+            <p>Address:8001 W Sunset Blvd, Los Angeles, CA 90046</p>
+        </footer>
+    </body>
+</html>
+
+CSS:
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-rows: repeat(2 auto);
+    grid-template-areas:
+        'header'
+        'main';
+}
+
+#header {
+    grid-area: header;
+    display: grid;
+    grid-template-rows: 150px auto;
+    grid-template-areas:
+        'logo'
+        'navbar';
+}
+
+main {
+    grid-area: main;
+    background: linear-gradient(orangered 10%, orange);
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas:
+        'abouttitle'
+        'about'
+        'videotitle'
+        'video'
+        'form';
+}
+
+.logo {
+    grid-area: logo;
+    background-image: url('blacklogo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 46%;
+}
+
+#nav-bar {
+    grid-area: navbar;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+.nav-link {
+    display: block;
+}
+
+.nav-link:link {
+    color: white;
+    font-size: 22px;
+}
+
+p {
+    grid-area: about;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 150%;
+    text-shadow: 5px 7px 8px black;
+    padding: 20px;
+}
+
+#infoTitle {
+    grid-area: abouttitle;
+    display: block;
+    width: 120px;
+    position: relative;
+    right: 2%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 5px 7px 8px black;
+}
+
+.videoTitle {
+    grid-area: videotitle;
+    color: white;
+    text-shadow: 5px 7px 8px black;
+    width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.youtube {
+    grid-area: video;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 0;
+}
+
+#form {
+    grid-area: form;
+}
+
+[type='email'],
+[type='submit'] {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: orange;
+}
+
+#contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    position: relative;
+    left: 20px;
+}
+
+@media (min-width: 400px){
+  h2 {
+    color: blue;
+  }
+}
+
